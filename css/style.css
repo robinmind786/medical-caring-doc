@@ -263,8 +263,74 @@ img {vertical-align: middle;}
     font-size: 2rem;
 }
 
+/*Department*/
+.department {
+    padding: 40px 0;
+}
+
+.department .maintaince {
+    background: var(--main-color);
+    padding: 10px;
+}
+
+.department .maintaince .maintaince-content {
+    padding: 60px 40px;
+    height: 100%;
+    width: 100%;
+    padding:;
+    border: 3px solid #ccc;
+    color: var(--normal-color);
+}
 
 
+.department .serices-item .serices-item-img img {
+    width: 100px;
+    height: 90px;
+}
+
+.department .serices-item {
+    padding: 30px 10px;
+    line-height: 20px;
+    background: #f6fcff;
+    text-align: center;
+}
+
+.department .serices-item p {
+    font-size: 16px;
+}
+
+.department .maintaince .maintaince-content h2 {
+    color: var(--normal-color);
+}
+
+.department .maintaince .maintaince-content p {
+    color: var(--normal-color);
+}
+
+.department .maintaince .maintaince-content ul li {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 15px;
+}
+
+.department .maintaince .maintaince-content ul li p:last-child {
+    color: var(--warning-color);
+    font-weight: bold;
+}
+
+.department .maintaince .maintaince-content .appointment-btn {
+    margin-top: 3rem;
+}
+
+.department .maintaince .maintaince-content .appointment-btn .btn {
+    background: var(--dark-color);
+}
+
+.department .maintaince .maintaince-content .appointment-btn .btn:hover {
+    background: var(--normal-color);
+    color: var(--main-color);
+}
 
 /*Services*/
 .service {
@@ -481,6 +547,21 @@ img {vertical-align: middle;}
     width: 100%;
 }
 
+.appointment .appointment-address div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #000000;
+}
+
+.appointment .appointment-address div h3 {
+    font-size: 18px;
+}
+
+.appointment .appointment-address div i {
+    color: var(--main-color);
+}
+
 input[type=text],
 input[type=email],
 textarea {
@@ -562,4 +643,16 @@ footer .text-main {
 footer .text-warning {
     color: var(--warning-color);
     font-weight: 600;
+}
+
+/*page*/
+.page_link {
+    padding: 20px;
+    color: var(--normal-color);
+    background: url('/img/page.jpg') no-repeat center center/cover;
+}
+
+.page_link h2,
+.page_link a {
+    color: var(--normal-color);
 }
