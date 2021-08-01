@@ -1,0 +1,126 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: Lato, sans-serif;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #616262;
+}
+
+html {
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+:root {
+    --main-color: #16b0c8;
+    --warning-color: #fae80c;
+    --normal-color: #ffffff;
+    --article-bg: #f6fcff;
+    --dark-color: #1c374c;
+}
+
+
+
+/*Services*/
+.service {
+    padding-top: 80px;
+}
+
+
+/*Helpline*/
+.help {
+    background: url('/img/help.png') no-repeat center center/cover;
+}
+.help .item-desc {
+    margin-bottom: 3rem;
+}
+.help .item-btn {
+    margin-top: 4rem;
+}
+
+.help .item-alert .section-alert {
+    font-size: 1rem;
+    display: flex;
+    align-content: center;
+
+}
+
+.help .item-alert .section-alert span {
+    color: var(--main-color);
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+/*client*/
+.client {
+    background: url('/img/client.png') no-repeat center center/cover;
+}
+
+.client img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.client .section-desc {
+    font-size: 1rem;
+}
+
+.client .profile  {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.client .profile .profile-content {
+    display: flex;
+    /*align-items: center;*/
+}
+
+.client .profile .slider-btn {
+    display: flex;
+    align-items: center;
+}
+
+.client .profile .profile-name {
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    line-height: 4px;
+}
+
+.client .profile .profile-name h3 {
+    font-size: 20px;
+
+}
+
+.client .profile .profile-name p {
+    font-size: 14px;
+}
+
+.client .profile i {
+    padding: 0 1rem;
+    font-size: 25px;
+    font-weight: 600;
+    transition: all .3s ease;
+}
+
+.client .profile i:hover {
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+/*News*/
+.news h2 {
+    font-size: 2rem;
+}
