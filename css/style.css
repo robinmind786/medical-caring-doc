@@ -265,3 +265,61 @@ textarea {
 .appointment .appointment-content .appointment-form .form-btn {
     margin-top: 40px;
 }
+
+
+/*Footer*/
+footer {
+    padding-top: 70px;
+    background: #2b3238;
+}
+
+footer .footer-content {
+    padding: 1rem;
+}
+
+footer .section-title {
+    color: var(--normal-color);
+    font-size: 25px;
+}
+
+footer .footer-info {
+    margin-top: 2rem;
+    color: var(--normal-color);
+}
+
+
+footer .footer-info .footer-desc {
+    font-size: 15px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer a {
+    color: var(--normal-color);
+    font-size: 15px;
+    transition: all .3s ease;
+}
+
+footer ul li a:hover {
+    color: var(--main-color);
+}
+
+footer ul li p {
+    font-size: 15px;
+}
+
+footer ul li {
+    line-height: 20px;
+}
+
+footer .text-main {
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+footer .text-warning {
+    color: var(--warning-color);
+    font-weight: 600;
+}
