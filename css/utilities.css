@@ -108,11 +108,14 @@ img {
     border-radius: 40px 40px 40px 40px;
     padding: 18px 37px 18px 37px;
     transition: all .4s ease;
+    outline: none;
+    border: none;
 }
 
 .btn:hover {
     background-color: var(--dark-color);
     color: var(--normal-color);
+    cursor: pointer;
 }
 
 

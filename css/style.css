@@ -61,6 +61,89 @@ html {
     margin-left: 10px;
 }
 
+/*team*/
+.team {
+    background: #f7fafb;
+}
+.team .item-content {
+    padding-bottom: 3rem;
+    transition: all .5s ease;
+}
+
+.team .item-content:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .3);
+}
+
+.team .item-content .team-img {
+    position: relative;
+    width: 100%;
+}
+
+.team .item-content .team-img .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 8px;
+    background: rgba(0, 0, 0, .4);
+    transition: all .3s ease;
+    opacity: 0;
+}
+
+.team .item-content .team-img:hover .overlay {
+    opacity: 1;
+}
+
+.team .item-content .team-img .overlay .team-social {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.team .item-content .team-img .overlay .team-social ul {
+    display: flex;
+}
+.team .item-content .team-img .overlay .team-social ul li {
+    list-style: none;
+    padding: 0 5px;
+}
+
+.team .item-content .team-img .overlay .team-social ul li a {
+    color: var(--normal-color);
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.team .item-content .team-img .overlay .team-social ul li a:hover {
+    color: var(--main-color);
+}
+
+.team img {
+    width: 100%;
+}
+
+.team .team-info {
+    padding-top: 16px;
+    text-align: center;
+    line-height: 14px;
+}
+
+.team .team-info .team-name h4 a {
+    text-decoration: none;
+    color: var(--dark-color);
+    transition: all .3s ease;
+}
+
+.team .team-info .team-name h4 a:hover {
+    color: var(--main-color);
+}
+
+.team .team-info .team-phone,
+.team .team-info .team-email {
+    font-size: 1rem;
+}
+
 /*client*/
 .client {
     background: url('/img/client.png') no-repeat center center/cover;
@@ -123,4 +206,62 @@ html {
 /*News*/
 .news h2 {
     font-size: 2rem;
+}
+
+.news .news-item {
+   margin-top: 4rem;
+}
+
+.news .news-info {
+    line-height: 10px;
+}
+
+.news .news-info .section-title {
+    font-size: 25px;
+}
+
+.news .news-info .news-date {
+    font-size: 14px;
+}
+
+.news .news-info .news-date i {
+    color: var(--main-color);
+}
+
+/*Appointment*/
+.appointment {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.appointment .appointment-bg {
+    background: url('/img/appointment.png') no-repeat center center/cover;
+}
+
+.appointment .appointment-content {
+    padding: 4rem;
+}
+
+.appointment .appointment-content .appointment-form {
+    margin-top: 3rem;
+    width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 100%;
+    padding: 14px 16px;
+    margin: 5px 0;
+    background: inherit;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+textarea {
+    height: 200px;
+}
+
+.appointment .appointment-content .appointment-form .form-btn {
+    margin-top: 40px;
 }
