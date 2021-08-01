@@ -13,20 +13,100 @@
 	.client .profile .profile-name {
 	    margin-left: 20px;
 	}
+	.showcase .showcase-heading {
+	    font-size: 1rem;
+	    font-weight: 600;
+	}
+
+	.showcase .showcase-desc {
+	    font-size: 12px;
+	}
+
+	.showcase .showcase-btn {
+	    margin-top: 0px;
+	    display: flex;
+	    /*flex-direction: column;*/
+	}
+
+	.showcase .showcase-btn a {
+	    margin: 1rem 2px;
+	    padding: 2px;
+	    font-size: 12px;
+	    text-decoration: none;
+	    font-size: 8px;
+	}
 }
 
 @media only screen and (min-width: 600px) {
+	.showcase .showcase-heading {
+	    font-size: 60px;
+	    font-weight: 600;
+	}
 
+	.showcase .showcase-desc {
+	    font-size: 2rem;
+	}
+
+	.showcase .showcase-btn {
+	    margin-top: 5px;
+	    display: flex;
+	    /*flex-direction: column;*/
+	}
+
+	.showcase .showcase-btn a {
+	    margin: 1rem 2px;
+	    padding: 5px;
+	    text-decoration: none;
+	    font-size: 1rem;
+	}
 }
 
 @media only screen and (min-width: 768px) {
+	.showcase .showcase-heading {
+	    font-size: 55px;
+	    font-weight: 600;
+	}
 
+	.showcase .showcase-desc {
+	    font-size: 3rem;
+	}
+
+	.showcase .showcase-btn {
+	    margin-top: 5px;
+	    display: flex;
+	    /*flex-direction: column;*/
+	}
 }
 
 @media only screen and (min-width: 992px) {
+	.showcase .showcase-heading {
+	    font-size: 70px;
+	    font-weight: 600;
+	}
 
+	.showcase .showcase-desc {
+	    font-size: 3rem;
+	}
+
+	.showcase .showcase-btn {
+	    margin-top: 5px;
+	    display: flex;
+	    /*flex-direction: column;*/
+	}
+
+	.showcase .showcase-btn a {
+	    margin: 1rem 2rem;
+	    padding: 14px 16px;
+	    text-decoration: none;
+	    font-size: 1rem;
+	}
 }
 
 @media only screen and (min-width: 1200px) {
-
+	.showcase .showcase-btn a {
+	    margin: 1rem 2rem;
+	    padding: 14px 16px;
+	    text-decoration: none;
+	    font-size: 1rem;
+	}
 }

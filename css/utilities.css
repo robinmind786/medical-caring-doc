@@ -8,10 +8,10 @@ h1, h2, h3, h4, h5, h6 {
 h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, h6:last-child {
   margin-bottom: 0; }
 
-p {
+/*p {
   margin: 12px 0; }
   p:last-child {
-    margin-bottom: 0; }
+    margin-bottom: 0; }*/
 
 h2 {
     font-style: normal;
